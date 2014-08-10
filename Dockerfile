@@ -19,4 +19,4 @@ RUN \
 	rm -rf /tmp/ledger
 
 ADD ./.ledgerrc /root/.ledgerrc
-CMD ["ledger"]
+ENTRYPOINT ["ledger"]
